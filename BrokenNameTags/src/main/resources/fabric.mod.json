@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "brokennametags",
+  "version": "1.0.0",
+  "name": "Broken Name Tags",
+  "description": "Adds Broken Name Tags into Minecraft",
+  "authors": [
+    "bluefire_phoenix"
+  ],
+  "contact": {
+    "sources":
+  },
+  "license": "MIT",
+  "icon": "assets/brokennametags/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bluefirephoenix.brokennametags.BrokenNameTags"
+    ]
+  },
+  "mixins": [
+    "brokennametags.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
