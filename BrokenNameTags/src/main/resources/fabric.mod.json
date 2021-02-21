@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "brokennametags",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "Broken Name Tags",
   "description": "Adds Broken Name Tags into Minecraft",
   "authors": [
     "bluefire_phoenix"
   ],
   "contact": {
-    "sources":
+    "sources": "https://github.com/Bluefire123/BloosFabricMods/tree/main/BrokenNameTags",
+    "issues": "https://github.com/Bluefire123/BloosFabricMods/issues"
   },
   "license": "MIT",
   "icon": "assets/brokennametags/icon.png",
